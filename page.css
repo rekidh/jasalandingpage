@@ -1,0 +1,66 @@
+:root {
+  --bg-gradien: linear-gradient(90deg, rgba(2, 0, 36, 0.8631827731092436) 0%,
+      rgba(9, 36, 121, 0.7847514005602241) 37%,
+      rgba(0, 212, 255, 1) 100%);
+}
+
+.main {
+  background: linear-gradient(90deg, rgba(118, 30, 232, 0.62) 0%, rgba(83, 73, 246, 0.9668242296918768) 0%, rgba(70, 155, 203, 1) 54%, rgba(50, 191, 219, 1) 100%);
+  width: 100%;
+  height: 40rem;
+}
+
+.bg-navv {
+  background: #5349f6;
+}
+
+.logo a {
+  color: aliceblue;
+}
+
+.logo :hover {
+  color: rgb(105, 25, 92);
+}
+
+.color {
+  color: aliceblue;
+}
+
+.typed {
+  color: rgb(250, 2, 2);
+}
+
+.ukuran {
+  height: 28em;
+  width: fit-content;
+}
+
+.ukuran2 {
+  height: 20rem;
+}
+
+.posision {
+  position: relative;
+}
+
+.aref {
+  color: rgb(17, 57, 236);
+  text-decoration: none;
+}
+
+.height {
+  height: 38rem;
+
+}
+@media screen and (max-width :780px) {
+  
+  #navbarContent{
+    display: none;
+}
+}
+@media screen and (min-width: 780px) {
+  #burger {
+  display: none;
+  }
+
+}
